@@ -8,7 +8,7 @@ This project presents an end-to-end Product-Led Growth (PLG) analytics case stud
 
 Using a synthetically generated but realistic dataset (100K users), I analyzed user behavior from signup to paid conversion, identified funnel bottlenecks, validated experimentation logic through A/B testing, and built an interpretable model to predict high-intent users.
 
-The goal of this project is not model complexity, but clear business thinking, decision-making, and analytical rigor — exactly how data is used in modern PLG SaaS companies.
+The goal of this project is not model complexity, but clear business thinking, decision-making, and analytical rigor - exactly how data is used in modern PLG SaaS companies.
 
 ⚠️ Important Note on Data
 
@@ -42,16 +42,16 @@ How do we validate product changes using experimentation?
 
 📂 Repository Structure
 plg-growth-analytics/
-├── README.md                  ← Master case study (this file)
+├── README.md ← Master case study (this file)
 ├── sql/
-│   └── funnel_analysis.sql
+│ └── funnel_analysis.sql
 ├── notebooks/
-│   ├── ab_testing.ipynb
-│   └── high_intent_model.ipynb
+│ ├── ab_testing.ipynb
+│ └── high_intent_model.ipynb
 ├── data/
-│   └── raw/ (synthetic CSV files)
+│ └── raw/ (synthetic CSV files)
 └── docs/
-    └── detailed_sql_notes.md
+ └── detailed_sql_notes.md
 
 🔹 Phase 1: SQL Funnel & Growth Analysis
 Objective
@@ -114,10 +114,10 @@ No statistically significant lift was observed
 
 This A/B test was performed on historical (offline) data.
 
-Real-World A/B Test	This Project
-Variant users see a new feature	All users saw the same experience
-Behavior can change	Behavior is already fixed
-Lift is expected	Lift should be ~0
+Real-World A/B Test This Project
+Variant users see a new feature All users saw the same experience
+Behavior can change Behavior is already fixed
+Lift is expected Lift should be ~0
 
 Because the data is historical, random splits naturally converge to the same behavior due to the Law of Large Numbers.
 
@@ -150,7 +150,6 @@ Persona & acquisition channel
 Intent Label
 high_intent = 1 → user upgraded (event or subscription)
 high_intent = 0 → free user
-
 
 Distribution:
 
